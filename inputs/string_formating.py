@@ -1,6 +1,3 @@
-from email import message
-
-
 name = input("Enter your name: ")
 surname = input("Enter your surname: ")
 message = "Hello %s %s" % (name, surname)
