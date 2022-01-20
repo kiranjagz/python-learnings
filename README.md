@@ -1,2 +1,2 @@
 # python-learnings
-Just learning some python using udemy and some online examples.
+Adding some python things. Maybe one day I will make it.

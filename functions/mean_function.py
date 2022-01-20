@@ -1,9 +1,12 @@
 from ipaddress import summarize_address_range
 
 
-def getMean(myList):
-    the_mean = sum(myList) / len(myList)
+def getMean(value):
+    if type(value) == dict:
+        the_mean = sum(value.values()) / len(value)
+    else:
+        the_mean = sum(value) / len(value)
     return the_mean
 
-result = getMean([10,10,50])
-print(result)
+student_grades = { "Mary": 9.5, "Bob": 4.5, "John": 7.8}
+print(getMean(student_grades))
