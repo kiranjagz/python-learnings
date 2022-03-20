@@ -8,5 +8,5 @@ def getMean(value):
         the_mean = sum(value) / len(value)
     return the_mean
 
-student_grades = { "Mary": 9.5, "Bob": 4.5, "John": 7.8}
+student_grades = { "Mary": 9.5, "Bob": 4.5, "John": 7.8, "K Dawg": 2.3}
 print(getMean(student_grades))
